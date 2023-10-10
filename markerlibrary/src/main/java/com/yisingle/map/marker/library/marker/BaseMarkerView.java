@@ -231,6 +231,10 @@ public abstract class BaseMarkerView<P extends BaseMarkerParam, W> extends Abstr
         this.marker = marker;
     }
 
+    public Marker getInfoMarker() {
+        return infoMarker;
+    }
+
     public W getInfoData() {
         return infoData;
     }

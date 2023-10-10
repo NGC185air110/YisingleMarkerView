@@ -173,6 +173,9 @@ public abstract class AbstractMarkerView<P extends BaseMarkerParam> extends Base
         if (null != marker) {
             marker.setObject(obj);
         }
+        if (null != infoMarker) {
+            infoMarker.setObject(obj);
+        }
     }
 
     public void setPeriod(int period) {
